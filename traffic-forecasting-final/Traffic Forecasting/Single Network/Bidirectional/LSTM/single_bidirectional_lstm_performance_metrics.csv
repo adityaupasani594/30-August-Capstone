@@ -1,0 +1,2 @@
+model_name,network_type,scale,model_type,hidden_dim,num_layers,total_params,quantum_enabled,mae_veh_hr,rmse_veh_hr,mape_percent,r2_score,best_val_mse,total_train_time_sec,avg_epoch_time_sec
+Forecast_5s_LSTM_Bidirectional_Single_8N,Single_Network_Bidirectional,8_Nodes_22_Edges,LSTM,128,2,312214,False,246.0024,351.801,27.5347,0.8538,0.173315,12.53,0.3133

@@ -1,0 +1,2 @@
+model_name,network_type,scale,model_type,hidden_dim,num_layers,total_params,quantum_enabled,mae_veh_hr,rmse_veh_hr,mape_percent,r2_score,best_val_mse,total_train_time_sec,avg_epoch_time_sec
+Forecast_5s_LSTM_Unidirectional_Hierarchical_24N,Hierarchical_Network_Unidirectional,24_Nodes_3_Zones_30_Edges,LSTM,128,2,386974,False,52.9748,67.4924,4.6984,0.9876,0.012135,27.97,0.6992

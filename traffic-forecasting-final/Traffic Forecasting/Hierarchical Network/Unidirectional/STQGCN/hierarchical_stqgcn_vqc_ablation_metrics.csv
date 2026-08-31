@@ -1,0 +1,8 @@
+model_name,network_type,scale,vqc_layers_K,num_qubits,quantum_params_theta,mae_veh_hr,rmse_veh_hr,mape_percent,r2_score,best_val_mse,total_train_time_sec,avg_epoch_time_sec
+STQGCN_Unidirectional_Hierarchical_K1,Hierarchical_Network_Unidirectional,24_Nodes_3_Zones,1,3,9,48.2662,60.828,4.3555,0.9899,0.010042,244.81,6.1202
+STQGCN_Unidirectional_Hierarchical_K2,Hierarchical_Network_Unidirectional,24_Nodes_3_Zones,2,3,18,48.14,60.6836,4.3801,0.9899,0.00999,269.86,6.7465
+STQGCN_Unidirectional_Hierarchical_K3,Hierarchical_Network_Unidirectional,24_Nodes_3_Zones,3,3,27,47.796,60.1868,4.3469,0.9901,0.009853,305.11,7.6277
+STQGCN_Unidirectional_Hierarchical_K4,Hierarchical_Network_Unidirectional,24_Nodes_3_Zones,4,3,36,46.6833,58.9651,4.2236,0.9905,0.009488,328.97,8.2243
+STQGCN_Unidirectional_Hierarchical_K5,Hierarchical_Network_Unidirectional,24_Nodes_3_Zones,5,3,45,46.7217,59.0426,4.216,0.9905,0.009433,353.02,8.8256
+STQGCN_Unidirectional_Hierarchical_K6,Hierarchical_Network_Unidirectional,24_Nodes_3_Zones,6,3,54,47.5698,60.0369,4.3007,0.9902,0.009857,379.13,9.4784
+STQGCN_Unidirectional_Hierarchical_K7,Hierarchical_Network_Unidirectional,24_Nodes_3_Zones,7,3,63,47.9994,60.6019,4.3581,0.99,0.010021,404.81,10.1201

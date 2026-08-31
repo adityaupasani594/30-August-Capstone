@@ -1,0 +1,8 @@
+model_name,vqc_layers_K,num_qubits,quantum_params_theta,mae_veh_hr,rmse_veh_hr,mape_percent,r2_score,best_val_mse,total_train_time_sec,avg_epoch_time_sec
+STQGCN_Unidirectional_K1,1,8,24,152.8741,277.6823,14.4542,0.9198,0.072999,581.7,14.5426
+STQGCN_Unidirectional_K2,2,8,48,162.2382,281.0541,14.9994,0.9178,0.074235,762.86,19.0714
+STQGCN_Unidirectional_K3,3,8,72,158.5268,278.6695,14.6274,0.9192,0.073359,492.93,12.3232
+STQGCN_Unidirectional_K4,4,8,96,154.827,278.5918,14.725,0.9193,0.073122,599.69,14.9922
+STQGCN_Unidirectional_K5,5,8,120,158.5837,278.4613,14.5957,0.9194,0.073161,703.6,17.5899
+STQGCN_Unidirectional_K6,6,8,144,162.2467,278.997,14.6421,0.919,0.073264,820.26,20.5064
+STQGCN_Unidirectional_K7,7,8,168,161.1666,278.889,14.831,0.9191,0.073281,893.02,22.3255

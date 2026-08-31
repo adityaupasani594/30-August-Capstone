@@ -1,0 +1,8 @@
+model_name,network_type,vqc_layers_K,num_qubits,quantum_params_theta,mae_veh_hr,rmse_veh_hr,mape_percent,r2_score,best_val_mse,total_train_time_sec,avg_epoch_time_sec
+STQGCN_Bidirectional_K1,Single_Network_Bidirectional,1,8,24,240.6134,354.4041,25.6519,0.8516,0.17876,339.91,8.4978
+STQGCN_Bidirectional_K2,Single_Network_Bidirectional,2,8,48,241.2745,354.1873,26.3291,0.8518,0.177023,435.16,10.8791
+STQGCN_Bidirectional_K3,Single_Network_Bidirectional,3,8,72,244.4099,362.3396,26.8937,0.8449,0.176937,534.66,13.3665
+STQGCN_Bidirectional_K4,Single_Network_Bidirectional,4,8,96,242.229,355.223,25.3956,0.8509,0.17181,629.03,15.7257
+STQGCN_Bidirectional_K5,Single_Network_Bidirectional,5,8,120,245.0168,362.7458,25.0245,0.8445,0.180714,726.69,18.1673
+STQGCN_Bidirectional_K6,Single_Network_Bidirectional,6,8,144,238.3952,352.8538,24.6684,0.8529,0.178127,825.47,20.6368
+STQGCN_Bidirectional_K7,Single_Network_Bidirectional,7,8,168,247.3069,356.9237,28.991,0.8495,0.174228,1783.64,44.5909

@@ -1,0 +1,2 @@
+model_name,network_type,scale,quantum_enabled,num_qubits,mae_veh_hr,rmse_veh_hr,mape_percent,r2_score,best_val_mse,total_train_time_sec,avg_epoch_time_sec
+Forecast_5s_Classical_STGCN_Unidirectional_Hierarchical_24N,Hierarchical_Network_Unidirectional,24_Nodes_3_Zones,False,0,46.2734,58.4061,4.2187,0.9907,0.00929,389.43,9.7359

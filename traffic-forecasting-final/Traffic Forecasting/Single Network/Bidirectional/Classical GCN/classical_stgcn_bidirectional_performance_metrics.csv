@@ -1,0 +1,2 @@
+model_name,network_type,scale,quantum_enabled,num_qubits,mae_veh_hr,rmse_veh_hr,mape_percent,r2_score,best_val_mse,total_train_time_sec,avg_epoch_time_sec
+Forecast_5s_Classical_STGCN_Bidirectional_Single_Network,Single_Network_Bidirectional,Junction_Level_N8,False,0,241.7863,363.5211,26.6911,0.8439,0.17913,132.66,3.3166

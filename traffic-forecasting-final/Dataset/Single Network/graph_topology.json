@@ -1,0 +1,163 @@
+{
+    "num_nodes": 8,
+    "num_edges": 11,
+    "num_timesteps": 10000,
+    "nodes": [
+        {
+            "id": 0,
+            "name": "V1_Borivali_Toll",
+            "type": 0,
+            "coords": [
+                0.2,
+                0.9
+            ]
+        },
+        {
+            "id": 1,
+            "name": "V2_JVLR_Interchange",
+            "type": 2,
+            "coords": [
+                0.35,
+                0.7
+            ]
+        },
+        {
+            "id": 2,
+            "name": "V3_Dadar_TT_Circle",
+            "type": 2,
+            "coords": [
+                0.45,
+                0.35
+            ]
+        },
+        {
+            "id": 3,
+            "name": "V4_Jogeshwari_WEH",
+            "type": 1,
+            "coords": [
+                0.28,
+                0.75
+            ]
+        },
+        {
+            "id": 4,
+            "name": "V5_BKC_Connector",
+            "type": 2,
+            "coords": [
+                0.4,
+                0.55
+            ]
+        },
+        {
+            "id": 5,
+            "name": "V6_Sion_Circle",
+            "type": 2,
+            "coords": [
+                0.52,
+                0.5
+            ]
+        },
+        {
+            "id": 6,
+            "name": "V7_Lower_Parel",
+            "type": 1,
+            "coords": [
+                0.42,
+                0.3
+            ]
+        },
+        {
+            "id": 7,
+            "name": "V8_South_Terminal",
+            "type": 0,
+            "coords": [
+                0.5,
+                0.15
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "id": 0,
+            "src": 0,
+            "dst": 1,
+            "name": "E0_V1->V2"
+        },
+        {
+            "id": 1,
+            "src": 0,
+            "dst": 3,
+            "name": "E1_V1->V4"
+        },
+        {
+            "id": 2,
+            "src": 0,
+            "dst": 4,
+            "name": "E2_V1->V5"
+        },
+        {
+            "id": 3,
+            "src": 1,
+            "dst": 2,
+            "name": "E3_V2->V3"
+        },
+        {
+            "id": 4,
+            "src": 1,
+            "dst": 4,
+            "name": "E4_V2->V5"
+        },
+        {
+            "id": 5,
+            "src": 2,
+            "dst": 7,
+            "name": "E5_V3->V8"
+        },
+        {
+            "id": 6,
+            "src": 3,
+            "dst": 4,
+            "name": "E6_V4->V5"
+        },
+        {
+            "id": 7,
+            "src": 4,
+            "dst": 5,
+            "name": "E7_V5->V6"
+        },
+        {
+            "id": 8,
+            "src": 5,
+            "dst": 1,
+            "name": "E8_V6->V2"
+        },
+        {
+            "id": 9,
+            "src": 5,
+            "dst": 6,
+            "name": "E9_V6->V7"
+        },
+        {
+            "id": 10,
+            "src": 6,
+            "dst": 2,
+            "name": "E10_V7->V3"
+        }
+    ],
+    "zones": {
+        "Zone_1_North": [
+            0,
+            3
+        ],
+        "Zone_2_Central_Loop": [
+            1,
+            4,
+            5
+        ],
+        "Zone_3_South": [
+            2,
+            6,
+            7
+        ]
+    }
+}
