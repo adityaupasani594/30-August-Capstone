@@ -89,7 +89,6 @@ function App() {
   }, [network, result, qaoaResult]);
   return <div className="app-shell">
     <aside className="sidebar">
-      <div className="brand"><div className="brand-mark"><Activity size={18} /></div><div><strong>flowstate</strong><span>mobility intelligence</span></div></div>
       <div className="sidebar-label">Workspace</div>
       <nav>{[['forecast', Gauge, 'Live forecast'], ['optimize', Zap, 'Signal optimizer'], ['research', GitCompareArrows, 'Research bench']].map(([key, Icon, label]) => <button key={key as string} className={mode === key ? 'nav-item active' : 'nav-item'} onClick={() => setMode(key as typeof mode)}><Icon size={17} />{label as string}</button>)}</nav>
       <div className="sidebar-label">Network</div>
